@@ -27,17 +27,9 @@ class Solution{
     static List<Integer> get(int a,int b)
     {
         // code here
-           // int temp = a; 
-        // a = b;
-        // b = temp;
-        
-        a = a + b;
-        b = a - b;
-        a = a - b;
-        
-        List<Integer> resultList = new ArrayList<>();
-        resultList.add(a);
-        resultList.add(b);
-        return resultList;
+        // int temp=a;
+        // a=b;
+        // b=temp;
+       return Arrays.asList(b,a);
     }
 }
